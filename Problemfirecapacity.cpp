@@ -12,6 +12,7 @@ int main(int argc, char **argv) {
   cout << "Enter the number of people in attendance: ";
   cin >> numPeople;
 
+  // calculates if the number of people in attendance exceed the capacity or not
   if (numPeople > maxRoomCapacity) {
     cout << "There are too many people in attendance." << endl;
     cout << "This meeting cannot be held as planned due to fire regulations." << endl;
