@@ -10,6 +10,7 @@ int main(int argc, char **argv) {
   cout << "Enter the number of hours worked: ";
   cin >> hoursWorked;
 
+  // checking for overtime hours
   if (hoursWorked > 40) {
     grossPay = (40*hourlyRate) + ((hoursWorked-40) * (hourlyRate*1.5));
   } else {
